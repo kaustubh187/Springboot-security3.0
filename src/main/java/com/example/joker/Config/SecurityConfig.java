@@ -43,7 +43,7 @@ public class SecurityConfig {
         )
         .httpBasic(Customizer.withDefaults()).build();
     }
-    //Encodes the Password into a hased version for saving inside database.
+    //Encodes the Password into a hashed version for saving inside database.
     
     // A method to encode passwords using Bcrypt
     @Bean
